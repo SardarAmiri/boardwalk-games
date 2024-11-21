@@ -11,10 +11,11 @@
 body {
   font-family: var(--primary-font);
 }
-h1 {
+h1,
+h2,
+h3 {
   font-family: var(--secondary-font);
   color: var(--primary-color);
-  text-transform: uppercase;
 }
 .sub-heading-color {
   color: var(--highlight-color);
@@ -27,7 +28,26 @@ h1 {
 #header .lead {
   font-family: var(--secondary-font);
 }
+/* Services */
+h2 {
+  margin-bottom: 2rem;
+}
+h1,
+h2 {
+  text-transform: uppercase;
+}
 
+#services .card-footer {
+  font-weight: bold;
+  color: var(--highlight-color);
+  background-color: transparent;
+}
+/* #services .card {
+  margin-bottom: 1.5rem;
+} */
+#gap {
+  margin-bottom: 1.5rem;
+}
 /* Navbar Style */
 #navbar {
   background-color: var(--primary-color);
