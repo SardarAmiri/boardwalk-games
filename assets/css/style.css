@@ -16,10 +16,17 @@ h1 {
   color: var(--primary-color);
 }
 
-.row {
+/* Navbar Style */
+#navbar {
+  background-color: var(--primary-color);
+}
+#navbar .logo {
+  width: 35px;
+}
+/* .row {
   border: 1px solid black;
 }
 .col-12 {
   border: 1px solid white;
   background-color: lightgray;
-}
+} */
