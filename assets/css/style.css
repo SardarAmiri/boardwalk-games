@@ -42,12 +42,10 @@ h2 {
   color: var(--highlight-color);
   background-color: transparent;
 }
-/* #services .card {
-  margin-bottom: 1.5rem;
-} */
-#gap {
+#services .card {
   margin-bottom: 1.5rem;
 }
+
 /* Navbar Style */
 #navbar {
   background-color: var(--primary-color);
@@ -62,3 +60,25 @@ h2 {
   border: 1px solid white;
   background-color: lightgray;
 } */
+
+@media (min-width: 768px) {
+  #services .card-body {
+    min-height: 191px;
+  }
+}
+
+@media (min-width: 992px) {
+  #services .card-body {
+    min-height: auto;
+  }
+}
+@media (min-width: 1200px) {
+  #services .card-body {
+    min-height: 218px;
+  }
+}
+@media (min-width: 1400px) {
+  #services .card-body {
+    min-height: 194px;
+  }
+}
