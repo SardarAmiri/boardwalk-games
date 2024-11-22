@@ -32,6 +32,10 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body class="d-flex flex-column min-vh-100">
@@ -65,7 +69,7 @@
               href="game-library.html"
               >Game</a
             >
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="index.html#contact">Contact</a>
           </div>
         </div>
       </div>
@@ -321,14 +325,77 @@
       </section>
     </main>
     <!-- Footer Section -->
-    <footer class="mt-auto">
-      <div class="container">
+    <footer id="contact" class="mt-auto">
+      <div class="container section">
         <div class="row justify-content-center">
-          <div class="col-12">Contact Section Header</div>
-          <div class="col-12 col-md-6 col-xl-4">
-            Contact info and social links
+          <div class="col-12">
+            <h2 class="display-6 text-center">Contact Us</h2>
           </div>
-          <div class="col-12 col-md-6 col-xl-4">Opening times</div>
+          <!-- Contact Info -->
+          <div class="col-12 col-md-6 col-xl-4">
+            <h3 class="sub-heading-color">Contact Info</h3>
+            <address>
+              <p>
+                <span><i class="bi bi-geo-alt-fill"></i></span>
+                <strong>Boardwalk Game</strong>
+                <br />
+                123 Boardwalk
+                <br />
+                Borardwalk City
+              </p>
+            </address>
+            <p>
+              <span><i class="bi bi-telephone-fill"></i></span>
+              +353 1 234 5678
+              <br />
+              <span><i class="bi bi-send"></i></span> info@boardwalk.game.co
+            </p>
+            <div class="social-links my-4">
+              <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-instagram" aria-label="Visit our instagram (open in a new tap)"></i>
+              </a>
+              <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-facebook" aria-label="Visit our facebook (open in a new tap)"></i>
+              </a>
+              <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-twitter-x" aria-label="Visti our twitter (open in a new tap)"></i>
+              </a>
+            </div>
+        </div>
+        <!-- Opening times -->
+        <div class="col-12 col-md-6 col-xl-4">
+          <h3 class="sub-heading-color">Opening times</h3>
+          <table class="table table-dark">
+            <thead>
+              <tr>
+                <th scope="col">Day</th>
+                <th scope="col">Open</th>
+                <th scope="col">Close</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Monday</th>
+                <td>Closed</td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row">Tue - Thur</th>
+                <td>11 am</td>
+                <td>11 pm</td>
+              </tr>
+              <tr>
+                <th scope="row">Fri - Sat</th>
+                <td >11 am</td>
+                <td>12 am</td>
+              </tr>
+              <tr>
+                <th scope="row">Sun</th>
+                <td >12 pm</td>
+                <td>7 pm</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
     </footer>
