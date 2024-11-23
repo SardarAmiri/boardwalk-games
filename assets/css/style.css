@@ -23,6 +23,7 @@ h3 {
 }
 .section {
   padding-top: 4rem;
+  margin-bottom: 2rem;
 }
 /* Header Style */
 #header .lead {
