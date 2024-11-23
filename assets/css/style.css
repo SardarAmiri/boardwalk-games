@@ -76,6 +76,17 @@ h2 {
   border: 2px solid var(--highlight-color);
   padding: 7px 25px;
 }
+/* Event Section */
+.student-discount {
+  background-color: var(--highlight-color);
+  color: white;
+  padding: 5px 5px;
+  font-weight: bold;
+  text-align: center;
+}
+.student {
+  padding: 5px 5px;
+}
 /* Footer / Contact */
 #contact {
   background-color: var(--primary-color);
