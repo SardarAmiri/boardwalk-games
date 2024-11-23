@@ -326,6 +326,111 @@
           </col-12>
         </div>
       </section>
+      <!-- Reservation Game Section -->
+      <section class="container section">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="text-center">Reserve a game</h2>
+            <p class="text-start">
+              Reserve a board game for your next visit to Boardwalk Games. Pick
+              your challenge, and let the adventure begin! Fill out your details
+              and preferred game below, and we'll have it set aside for you when
+              you arrive.
+            </p>
+          </div>
+        </div>
+        <form action="sucess.html" method="GET">
+          <div class="row">
+            <div class="col-12 col-md-12 col-lg-4 col-xl-4">
+              <div class="mb-3">
+                <label for="exampleInputFullName" class="form-label"
+                  >Full name</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="exampleInputFullName"
+                  aria-describedby="fullNameHelp"
+                  name="exampleInputFullName"
+                  required
+                />
+              </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-4 col-xl-4">
+              <div class="mb-3">
+                <label for="exampleInputPhoneNumber" class="form-label"
+                  >Phone number</label
+                >
+                <input
+                  type="number"
+                  class="form-control"
+                  id="exampleInputPhoneNumber"
+                  name="exampleInputPhoneNumber"
+                  required
+                />
+              </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-4 col-xl-4">
+              <div class="mb-3">
+                <label for="exampleInputEmailAddress" class="form-label"
+                  >Email address</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmailAddress"
+                  name="exampleInputEmailAddress"
+                  required
+                />
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-md-12 col-lg-8 col-xl-8">
+              <div class="mb-3">
+                <label for="exampleInputSelectGame" class="form-label"
+                  >Select game</label
+                >
+                <select
+                  class="form-select"
+                  aria-label="Default select example"
+                  id="exampleInputSelectGame"
+                  name="exampleInputSelectGame"
+                  required
+                >
+                  <option value="">Select game</option>
+                  <option value="galaxy pioneers">Galaxy Pioneers</option>
+                  <option value="mystic woods">Mystic Woods</option>
+                  <option value="captain's gambit">Captain's Gambit</option>
+                  <option value="critter quest">Critter Quest</option>
+                  <option value="settlers of catan">Settlers of Catan</option>
+                  <option value="monopoly">Monopoly</option>
+                  <option value="exploding kittens">Exploding Kittens</option>
+                  <option value="cluedo">Cluedo</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-4 col-xl-4">
+              <div class="mb-3">
+                <label for="exampleInputDate" class="form-label"
+                  >Requested date</label
+                >
+                <input
+                  type="date"
+                  class="form-control"
+                  id="exampleInputDate"
+                  name="exampleInputDate"
+                  required
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="d-flex justify-content-end">
+            <button type="submit" class="btn custom-btn-outline">Submit</button>
+          </div>
+        </form>
+      </section>
     </main>
     <!-- Footer Section -->
     <footer id="contact" class="mt-auto">

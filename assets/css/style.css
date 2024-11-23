@@ -87,6 +87,11 @@ h2 {
 .student {
   padding: 5px 5px;
 }
+
+/* Game Reservation */
+.reserve-game {
+  /* width: 900px; */
+}
 /* Footer / Contact */
 #contact {
   background-color: var(--primary-color);
