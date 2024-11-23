@@ -90,7 +90,7 @@ h2 {
 
 /* Game Reservation */
 .reserve-game {
-  /* width: 900px; */
+  max-width: 900px;
 }
 /* Footer / Contact */
 #contact {
